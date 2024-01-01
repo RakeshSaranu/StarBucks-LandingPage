@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR BUCKS</title>
+    <link rel="stylesheet" href="./CSS.css">
+    <link rel="icon" type="image/x-icon" href="images/starbucks.png">
+    
+</head>
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header class="hed">
+            <a href="#"><img src="./Images/logo.png" alt="logo" class="logo"></a>
+            <div class="menu" onclick="menuFunction();"></div>
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#" >WHAT'S NEW</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+            <div class="text">
+                <h2>It's not just Coffee<br>It's <span>Star Bucks</span></h2>
+<br>
+               <p>The Starbucks story is one of entrepreneurial spirit, innovation, and a commitment to quality. 
+                As long as there are coffee lovers seeking a comfortable place to enjoy a cup of joe, Starbucks is likely to continue thriving in the years to come.</p>
+                <a href="#">Learn More</a>
+
+            </div>
+
+            <div class="imgbox">
+                <img src="./Images/img1.png" alt ="coffee" class="starbucks">
+            </div>
+        </div> 
+        </div>
+
+        <ul class="types">
+            <li><img src="./Images/thumb1.png" onclick="funImage('./Images/img1.png');changeColors('#017143')"></li>
+            <li><img src="./Images/thumb2.png" onclick="funImage('./Images/img2.png');changeColors('#eb7495')"></li>
+            <li><img src="./Images/thumb3.png" onclick="funImage('./Images/img3.png');changeColors('#d752b1')"></li>
+        </ul>
+
+        <ul class="icon">
+            <li><a href="#"></a><img src="./Images/facebook.png"></a></li>
+            <li><a href="#"></a><img src="./Images/instagram.png"></a></li>
+            <li><a href="#"></a><img src="./Images/twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="./SCRIPT.js"></script>
+</body>
+</html>
